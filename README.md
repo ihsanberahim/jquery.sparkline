@@ -12,6 +12,16 @@ for IE support).
 See the [jQuery Sparkline project page](http://omnipotent.net/jquery.sparkline/)
 for live examples and documentation.
 
+## How to build
+
+```# for MacOSx```
+
+```sudo npm install -g uglifyjs```
+
+```sudo make -f Makefile```
+
+```cp sparkline.jquery.json bower.json```
+
 ## License
 
 Released under the New BSD License
